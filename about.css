@@ -1,0 +1,96 @@
+
+body{
+    background-color: #C9F9E2;
+}
+.imageheight{
+    height: 34vh !important;
+}
+.alltextcolor{
+    color: #1E520C !important;
+  }
+
+#green1 {
+    border-radius: 5px !important;
+    padding: 15px 32px !important;
+    gap: 8px !important;
+    background-color: #2DA004 !important;
+    border: 2px solid transparent;
+    margin-top: 100px;
+  
+  }
+  .topss {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for transform and box-shadow */
+  }
+  
+  @media screen and (max-width: 991px) {
+    .navcss {
+      display: block;
+    }
+  }
+  .topss:hover {
+    box-shadow: 10px 10px #306D51;; /* Box shadow properties */
+    transform: scale(1.05); /* Scale up effect */
+  }
+  .move:hover{
+    transform: scale(1.02);
+  
+  }
+  .alltoeheading{
+    position: relative;
+    top: -50px;
+  }
+  @media screen and (max-width: 475px)  {
+    .topes{
+      top: 31% !important;
+    }
+  }
+  @media (max-width: 992px){
+
+    .fiveseven{
+      position: relative!important;
+      top: 0rem !important;
+      
+    }
+    }
+
+.dataall {
+    position: relative;
+    transition: background-color 0.3s ease;
+   background-color: transparent !important;
+   height: 90%;
+   
+  }
+  
+  .dataall #art-icons {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+  }
+ 
+  .alldata:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .alldata:hover .dataall #art-icons {
+    opacity: 1;
+    transform: scale(1);
+    
+  }
+  
+  .alldata:hover .heading {
+    transform: scale(1.05); /* Scale up the card title on hover */
+  }
+  
+  .heading  {
+    transition: transform 0.2s ease-out; /* Add transition for scaling */
+  }
+  .icon{
+    width: 10%;
+  }
+  @media only screen and (max-width: 991px) {
+    .positions{
+     position: relative;
+     top: 0rem !important;
+    }
+   }
+ 

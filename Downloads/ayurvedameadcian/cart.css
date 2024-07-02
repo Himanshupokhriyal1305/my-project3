@@ -1,0 +1,29 @@
+.cardimd{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allcardmide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #306D51;
+    color: #1E520C;
+}
+
+@media  (max-width:991px) {
+    .towheight{
+        height: 133px !important;
+
+    }
+    .towinoneheight{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+    
+}
+body{
+    background-color: #C9F9E2;
+}
