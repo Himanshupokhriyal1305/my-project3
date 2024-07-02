@@ -53,13 +53,13 @@ li {
 }
 
 .h2edit {
-  font-size: clamp(22px, 4vw, 55px);
-  font-weight: 700;
+  font-size: clamp(25px, 4vw, 55px) !important;
+  font-weight: 700 !important;
 }
 
 .pedit {
-  font-size: clamp(10px, 3vw, 17px);
-  font-weight: 400;
+  font-size: clamp(14px, 4vw, 17px) !important;
+  font-weight: 400 !important;
   margin-bottom: 0px !important;
 }
 
@@ -76,7 +76,7 @@ li {
   gap: 8px !important;
   background-color: #2DA004 !important;
   border: 2px solid transparent;
-  margin-top: 100px;
+  margin-top: 90px;
 
 }
 .topss {
@@ -102,6 +102,11 @@ li {
   .topes{
     top: 31% !important;
   }
+
+  .textcss{
+    padding: 1rem !important;
+    margin: 0rem !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -124,6 +129,9 @@ li {
   .sametowu{
     display: flex;
     justify-content: center;
+  }
+  .blocks{
+    display: block;
   }
 }
 
@@ -486,7 +494,7 @@ opacity: 1;
   gap: 8px !important;
   background-color: #2DA004 !important;
   border: 2px solid transparent;
-  margin-top: 100px;
+  margin-top: 90px;
 
 }
 
