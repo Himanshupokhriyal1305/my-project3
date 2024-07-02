@@ -30,3 +30,6 @@
 body{
     background-color: #C9F9E2;
 }
+#trm{
+    background-color: transparent !important;
+}

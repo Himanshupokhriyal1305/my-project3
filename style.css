@@ -46,7 +46,7 @@ li {
   height: 100vh;
   background:
     linear-gradient(rgba(55, 156, 102, 0.4), rgba(55, 156, 102, 0.4)),
-    url("pexels-n-voitkevich-7615574\ 1.png");
+    url(./assets/pexels-n-voitkevich-7615574\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

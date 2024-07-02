@@ -2,7 +2,7 @@
     background-color: #C9F9E2 !important;
 }
 .backpicgreen{
-    background-image: url("BG.png");
+    background-image: url(assets/BG.png);
 }
 .stars{
     color: yellow;
