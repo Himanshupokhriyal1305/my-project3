@@ -69,7 +69,7 @@
   
  
   <div class="container-fluid text-white back-ground">
-    <div class="  home-section ps-5 ms-5">
+    <div class="  home-section ps-5 ms-5 margines">
       <div class="row">
         <div class=" container-fluid margines navbarcss">
           <h2 class="h2edit mb-0 ">Welcome To Positive</h2>
@@ -96,9 +96,9 @@
   </div>
 
   <div class="container-fluid" style="background-color: #306d51">
-    <div class=" text-center p-5">
-      <div class="row text-center d-flex justify-content-center align-middle">
-        <div class="col-lg-4 col-md-6 fivvesix p-5">
+    <div class=" text-center fivvesix p-5">
+      <div class="row text-center  d-flex justify-content-center align-middle">
+        <div class="col-lg-4 col-md-6 threefix p-5 ">
           <div class="card bg-white  herbal ">
             <img src="./assets/pngtree-herbal-medicine-3d-illustration-rendering-png-image_11512700 1.png"
               class="card-img-top three1" alt="..." />
@@ -116,11 +116,11 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 fivvesix p-5">
+        <div class="col-lg-4 col-md-6 threefix p-5 ">
           <div class="card bg-white  herbal ">
             <img src="./assets/pngtree-a-bottle-of-herbal-liquid-with-leaves-and-herbs-png-image_12299999 1.png"
               class="card-img-top three1" alt="..." />
-            <div class="card-body bg-white  herbal ">
+            <div class="card-body bg-white  herbal  ">
               <p class="card-title mt-1 fs-3">
                 <b>Fresh Product</b>
               </p>
@@ -134,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6  fivvesix  p-5">
+        <div class="col-lg-4 col-md-6  threefix  p-5">
           <div class="card bg-white  herbal ">
             <img src="./assets/pngtree-white-granite-stone-mortar-and-pestle-png-image_11375815 1.png"
               class="card-img-top three1" alt="..." />
@@ -395,11 +395,43 @@
       <p class="fs-2" style="color: #1E520C;"><b>Customer Review</b></p>
   
   </div>
-  <div id="slider">
-    <div class="slide text-white p-5">
+  <div id="slider" style="display: flex; justify-content: end; align-items: center;">
+    <div class="slide text-white p-5   sizee ">
       <div class="card ">
         <div class="row g-0 " style="background-color: #306d51">
-          <div class="col-md-4 p-4 ">
+          <div class="col-md-4 p-4 d-flex">
+            <img src="./assets/Rectangle 9.png" class="img-fluid rounded-start" alt="..." />
+          </div>
+          <div class="col-md-8 p-5 textcss text-start">
+            <div class="card-body  textcss mt-5">
+              <h2 class="card-title">Jane Cooper</h2>
+              <i class="fa-solid fa-quote-left fs-1 mt-3"></i>
+              <h5 class="card-text sizee p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur.
+              </h5>
+              <i class="fa-solid fa-quote-right d-flex fs-1  justify-content-end"></i>
+              
+            </div>
+
+           
+          </div>
+        <div class="d-flex justify-content-end p-5"> 
+           <span class="controls m-1  " onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-angle-left text-white" aria-hidden="true"></i>
+        </span>
+        <span class="controls m-1 " id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-angle-right text-white aria-hidden="true"></i>
+        </span></div>
+        </div>
+      </div>
+    </div>
+    <div class="slide text-white p-5 fivvesix ">
+      <div class="card ">
+        <div class="row g-0 " style="color: black;">
+          <div class="col-md-4 p-4 d-flex">
             <img src="./assets/Rectangle 9.png" class="img-fluid rounded-start" alt="..." />
           </div>
           <div class="col-md-8 p-5 textcss text-start">
@@ -416,24 +448,31 @@
               </h5>
               <i class="fa-solid fa-quote-right d-flex fs-1  justify-content-end"></i>
             </div>
+           
           </div>
+          
         </div>
+        <div class="d-flex justify-content-end p-5"> 
+          <span class="controls m-1  " onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-angle-left text-white" aria-hidden="true"></i>
+       </span>
+       <span class="controls m-1 " id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-angle-right text-white aria-hidden="true"></i>
+       </span></div>
       </div>
     </div>
  
 
 
-    <div class="slide text-white p-5">
-      <div class="card " style="color: #1E520C;">
-        <div class="row g-0 " >
-          <div class="col-md-4 p-4 ">
+    <div class="slide text-white p-5 fivvesix ">
+      <div class="card ">
+        <div class="row g-0 " style="background-color: #306d51">
+          <div class="col-md-4 p-4 d-flex ">
             <img src="./assets/Rectangle 9.png" class="img-fluid rounded-start" alt="..." />
           </div>
-          <div class="col-md-8 p-5 text-start">
-            <div class="card-body mt-5">
+          <div class="col-md-8 p-5 textcss text-start">
+            <div class="card-body  textcss mt-5">
               <h2 class="card-title">Jane Cooper</h2>
               <i class="fa-solid fa-quote-left fs-1 mt-3"></i>
-              <h5 class="card-text p-2 sizers">
+              <h5 class="card-text sizee p-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -443,18 +482,54 @@
               </h5>
               <i class="fa-solid fa-quote-right d-flex fs-1  justify-content-end"></i>
             </div>
+            
           </div>
+          <div class="d-flex justify-content-end p-5"> 
+            <span class="controls m-1  " onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-angle-left text-white" aria-hidden="true"></i>
+         </span>
+         <span class="controls m-1 " id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-angle-right text-white aria-hidden="true"></i>
+         </span></div>
+        </div>
+      </div>
+    </div>
+    <div class="slide text-white p-5   sizee ">
+      <div class="card ">
+        <div class="row g-0 " style="color: dark;">
+          <div class="col-md-4 p-4 d-flex ">
+            <img src="./assets/Rectangle 9.png" class="img-fluid rounded-start" alt="..." style="height: ;" />
+          </div>
+          <div class="col-md-8 p-5 textcss text-start">
+            <div class="card-body  textcss mt-5">
+              <h2 class="card-title">Jane Cooper</h2>
+              <i class="fa-solid fa-quote-left fs-1 mt-3"></i>
+              <h5 class="card-text sizee p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur.
+              </h5>
+              <i class="fa-solid fa-quote-right d-flex fs-1  justify-content-end"></i>
+              
+            </div>
+
+           
+          </div>
+        <div class="d-flex justify-content-end p-5"> 
+           <span class="controls m-1  " onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-angle-left text-white" aria-hidden="true"></i>
+        </span>
+        <span class="controls m-1 " id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-angle-right text-white aria-hidden="true"></i>
+        </span></div>
         </div>
       </div>
     </div>
     
+    
    
 
     <!--Controlling arrows-->
-    <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i>
-    </span>
-    <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-angle-right" aria-hidden="true"></i>
-    </span>
+  
   </div>
   <div id="dots-con">
     <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
@@ -466,8 +541,8 @@
         <h2 style="color: #1E520C;"> <b>Lastest New</b></h2>
         <h4>Blog</h4>
       </div>
-      <div class="row d-flex justify-content-center align-middle">
-        <div class="col-lg-4 col-md-6 mt-3">
+      <div class="row justify-content-center align-middle">
+        <div class="col-lg-4 d-flex col-md-6 mt-3">
           <div>
             <img src="./assets/Rectangle 29.png" class="card-img-top" alt="..." />
             <div class="card-body bg-white">
@@ -487,7 +562,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt-3">
+        <div class="col-lg-4  col-md-6 mt-3">
           <div>
             <img src="./assets/Rectangle 29 (1).png" class="card-img-top" alt="..." />
             <div class="card-body bg-white">
