@@ -3,6 +3,7 @@
 }
 
 
+
 .three1 {
   height: 274px !important;
   object-fit: contain;
@@ -96,6 +97,10 @@ li {
 @media screen and (max-width: 520px)  {
   .fivvesix{
    padding: 1rem !important;
+  }
+  .sizee{
+    font-size: 15px !important;
+    padding: 0rem !important;
   }
 }
 

@@ -21,6 +21,13 @@
     justify-content: start;
   
   }
+  @media screen and (max-width: 520px)  {
+ 
+    .sizee{
+      font-size: 15px !important;
+      padding: 0rem !important;
+    }
+  }
   
   li {
     list-style: none;
