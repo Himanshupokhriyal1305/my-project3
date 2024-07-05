@@ -2,6 +2,7 @@
   z-index: 1;
 }
 
+
 .three1 {
   height: 274px !important;
   object-fit: contain;
@@ -250,6 +251,10 @@ img {
   #dots-con {
     display: none;
   }
+  .home-section {
+    position: relative !important;
+    top: 20% !important;
+  }
 }
 
 .herbal {
@@ -463,13 +468,13 @@ opacity: 1;
 } 
 .home-section {
   position: relative;
-  top: 26%;
+  top: 18%;
 }
 .back-ground {
   height: 100vh;
   background:
     linear-gradient(rgba(55, 156, 102, 0.4), rgba(55, 156, 102, 0.4)),
-    url(./assets/pexels-n-voitkevich-7615574\ 1.png ;
+    url(./assets/pexels-n-voitkevich-7615574\ 1.png ;)
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
