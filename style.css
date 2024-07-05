@@ -93,11 +93,22 @@ li {
 .move:hover{
   transform: scale(1.02);
 
+
 }
+@media screen and (max-width: 550px)  {
+ 
+  .srm{
+    padding-left: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }}
 @media screen and (max-width: 520px)  {
   .fivvesix{
    padding: 0rem !important;
 
+  }
+  .prm{
+    padding-left: 0rem !important;
+    margin-left: 0rem !important;
   }
   
   .herbal{
